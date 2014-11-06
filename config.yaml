@@ -1,0 +1,17 @@
+---
+name: tianfuweixin
+version: 5
+worker: tornado
+
+libraries:
+- name: lxml
+  version: "2.3.4"
+- name: tornado
+  version: "3.1.1"
+
+# cron:
+# - description: send news
+#   url: /cron/news
+#   schedule: every day of month 10:00
+#   timezone: Beijing
+...
